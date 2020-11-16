@@ -10,7 +10,6 @@ float horizontal = Input.GetAxis("Horizontal"); // +1 if right arrow is pushed, 
 
         
         Vector3 targetMovePosition = transform.position + movementVector * speed * Time.deltaTime ;
-        //transform.position = targetMovePosition; /////
         RaycastHit2D raycastHit= Physics2D.Raycast(transform.position,movementVector, speed * Time.deltaTime,1 << 8);
         if(raycastHit.collider == null){
             //can move
@@ -24,10 +23,6 @@ float horizontal = Input.GetAxis("Horizontal"); // +1 if right arrow is pushed, 
             raycastHit= Physics2D.Raycast(transform.position,testMoveDir, speed * Time.deltaTime,1 << 8);
             if(raycastHit.collider == null){
             //can move horizontly
-            //transform.position = targetMovePosition;
-         //   transform.position = GameObject.FindGameObjectWithTag("DownWall").transform.position;
-        //    testMoveDir = new Vector3(movementVector.x,0f).normalized;
-         //   targetMovePosition = transform.position + testMoveDir * speed * Time.deltaTime ;
             transform.position = targetMovePosition;
             }
             else
