@@ -13,6 +13,8 @@ There is an element called "GOAL" where there has a trigger, if something touche
 The code of [Goal](https://github.com/Gamedev-Project/Homework4-C_1/blob/main/Assets/Goal.cs)  
 The code of [SCORE](https://github.com/Gamedev-Project/Homework4-C_1/blob/main/Assets/Score.cs) 
 #### Movement:  
+![](https://i.imgur.com/7pieJZ5.png)
+
 The movement of the frog is with the help of the arrow keys, or with the help of the buttons (W, A, S, D).
 Audio: The game has nostalgic background music of the crazy frog to put the player in the right mood. To cancel the sounds, there is a button at the top of the screen.  
 The movement in the game is limited, it is done by a "CAR" tag to all the vehicles, and also a trigger in the frog itself that if it hits a CAR component then the score is reset and the game resets and starts again.  
@@ -31,7 +33,9 @@ The code of [Boundaries of the Frog ](https://github.com/Gamedev-Project/Homewor
 #### Sounds:  
 We created the sounds in the game using a component called "Audio Source" and created a "Tuggle" button inside the canvas that allows you to mute the music and play it again with the click of a button in the game.
 
-#### car spawner:  
+#### car spawner: 
+![](https://i.imgur.com/oEWqqwY.png)
+
 There are three car spawns for each lane.  
 why? To create difficulty and interest in the game and make the game more challenging.  
 The vehicles came out in sets of threes and after a while there will be a small delay of a break and only then will the frog be able to pass.
