@@ -4,6 +4,7 @@ The homework assigminet which we follows is [right here!](https://github.com/gam
 ### In this game the player is the famous crazy frog who in order to earn points has to cross the road full of cars without getting hit at all.
 
 #### Score:  
+![](https://i.imgur.com/ZAfKgco.png)  
 At each good crossing of the road at the end the player gets one point for his SCORE and then straight starts a new session and so the player can score many points.  
 The code we used to execute it is in several places. First we created a canvas variable called "SCORE" where we created a static variable called CurrentScore that initializes to 0.  
 There is an element called "GOAL" where there has a trigger, if something touches it then the CurrentScore goes up in 1 and the frog starts again from the beginning of the road.
@@ -31,10 +32,11 @@ We did the same thing on horizontly walls and vertically walls.
 The code of [Boundaries of the Frog ](https://github.com/Gamedev-Project/Homework4-C_1/blob/main/Assets/Frog.cs ) 
 
 #### Sounds:  
+![](https://i.imgur.com/sLTT1Rs.png)  
 We created the sounds in the game using a component called "Audio Source" and created a "Tuggle" button inside the canvas that allows you to mute the music and play it again with the click of a button in the game.
 
 #### car spawner: 
-![](https://i.imgur.com/oEWqqwY.png)
+![](https://i.imgur.com/oEWqqwY.png)  
 
 There are three car spawns for each lane.  
 why? To create difficulty and interest in the game and make the game more challenging.  
