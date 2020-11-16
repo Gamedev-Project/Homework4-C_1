@@ -37,7 +37,7 @@ why? To create difficulty and interest in the game and make the game more challe
 The vehicles came out in sets of threes and after a while there will be a small delay of a break and only then will the frog be able to pass.
 The code of [car spawner](https://github.com/Gamedev-Project/Homework4-C_1/blob/main/Assets/CarSpawner.cs )  
 
-To write the above code, we used tutorial video on YouTube.
+To write part of the code above, we used tutorial video on YouTube.
 
 
 
