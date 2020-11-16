@@ -1,4 +1,5 @@
 ## Jumper Frog Unity Game created by avi haimov and niv tal
+![](https://i.imgur.com/iTrGN7B.png)
 The homework assigminet which we follows is [right here!](https://github.com/gamedev-at-ariel/gamedev-5781/blob/master/04-unity-triggers/homework.pdf)
 ### In this game the player is the famous crazy frog who in order to earn points has to cross the road full of cars without getting hit at all.
 
